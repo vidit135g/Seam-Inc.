@@ -1,0 +1,218 @@
+.top-bar li {
+    display: inline;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: white;
+    vertical-align: middle;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.top-bar img {
+    margin-bottom: 5px;
+}
+
+#top ul {
+    display: inline;
+}
+
+.name {
+    display: inline-block;
+    margin-top: -30px;
+}
+
+#top-bar-button {
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: darkslategrey;
+    color: white;
+    margin-right: 10px;
+}
+
+#top-bar-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#second-bar {
+    margin-right: 100px;
+    float: right;
+    margin-top: 16px;
+}
+
+#second-bar li img {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+    margin-right: 3px;
+}
+
+#second-bar li {
+    margin-left: 10px;
+}
+
+.top-bar {
+    float: left;
+    margin-left: 110px;
+    color: white;
+    background-color: black;
+}
+
+.top-bar {
+    margin-top: 12px;
+}
+
+.ta:hover {
+    text-decoration: none;
+    padding-top: 15px;
+    color: white;
+    border-top: 7px solid white;
+}
+
+.ta {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    z-index: -1;
+    padding: 31px;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.main-comp {
+    margin-left: 60px;
+    font-size: 50px;
+}
+
+.image {
+    height: 480px;
+    z-index: -1;
+    background-image: url("../img/giphy3.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.form-login {
+    padding-right: 15px;
+    z-index: 1;
+    margin-top: -110px;
+    border-top: 10px solid lightgray;
+    width: 1300px;
+}
+
+.sign-box {
+    width: 700px;
+    height: 250px;
+    color: white;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 14px 20px;
+    position: absolute;
+    left: 50px;
+    margin-top: -420px;
+}
+
+#sea {
+    width: 600px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: -5px;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+#pa2 {
+    font-weight: lighter;
+}
+
+#last-cont {
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 170px;
+    background-color: whitesmoke;
+}
+
+#signed a {
+    text-decoration: none;
+    color: green;
+}
+
+#last-foot {
+    background-image: url("../img/footblue.png");
+    width: 100%;
+    height: 200px;
+}
+
+#box {
+    padding: 20px;
+    background-color: black;
+    height: 120px;
+}
+
+.ex {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    margin-left: 180px;
+    vertical-align: bottom;
+}
+
+.ex1 {
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 5px 11px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.ele {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#el {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    border-radius: 4px;
+    font-weight: bolder;
+    padding: 5px 15px 6px 15px;
+    position: absolute;
+    margin-top: 21px;
+    background-color: green;
+}
+
+#lower-card {
+    padding-top: 70px;
+    float: left;
+    background-color: black;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+#sign {
+    padding: 12px 30px;
+    position: relative;
+    top: -5px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 100px;
+    margin-left: 100px;
+}

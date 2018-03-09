@@ -1,0 +1,175 @@
+#bdy {
+    overflow-y: hidden;
+}
+.image {
+    height: 640px;
+    z-index: -1;
+    background-color: whitesmoke;
+}
+#signhead {
+    background-image: url("../img/sigdrive.jpg");
+    background-size: cover;
+    height: 50px;
+}
+
+.sign-box {
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100px;
+    padding-top: 35px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+    left: 620px;
+    top: 25px;
+}
+.row {
+    background-image: url("../img/giphy1.gif");
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+}
+.form-login {
+    align-self: auto;
+    padding-left: 60px;
+    margin: 0 auto;
+    z-index: 1;
+    margin-top: 70px;
+    border-top: 10px solid lightgray;
+    width: 1200px;
+    height: 640px;
+}
+
+.fmh {
+    font-weight: lighter;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.stack {
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 50px;
+}
+.red {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #CE3323;
+  }
+
+  .red:hover {
+    background-color: #FF6656;
+  }
+  .btn {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+  }
+
+  .btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+
+  .blue {
+    background-color: #55acee;
+    box-shadow: 0px 5px 0px 0px #3C93D5;
+  }
+
+  .blue:hover {
+    background-color: #6FC6FF;
+  }
+
+h3
+{
+    padding-bottom: 10px;
+}
+.ver
+{
+    background-image: url('../img/streak.gif');
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    border: none;
+    width: 70px;
+    outline: none;
+    transition: background 0.2s linear;
+}
+.ver:focus
+{
+    outline: none;
+}
+.ver:active
+{
+    outline: none;
+}
+
+#lk {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+.btn-submit {
+    width: 550px;
+    text-align: left;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid cadetblue;
+    background-color: cadetblue;
+    padding-left: 10px;
+    color: white;
+}
+
+#accept1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#accept1 a {
+    text-decoration: none;
+    color: cadetblue;
+}
+#latter{
+    background-color: white;
+    border: none;
+    position: absolute;
+    margin: 0 auto;
+    display: none;
+    z-index: -20;
+    padding-left: 350px;
+    top:160px;
+}
+#logo
+{
+    background-image: url('../img/anime.gif');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: 250px;
+    width: 140px;
+    height: 140px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html><html class="not-ie no-js" lang="en">
+        <head>
+
+            <meta charset="utf-8">
+            <title>Drive</title>
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link href="../css/bootstrap.min.css" rel="stylesheet">
+            <link href="../css/jquery.idealforms.css" rel="stylesheet">
+            <link href="../css/jquery.idealselect.css" rel="stylesheet">
+            <link href="../css/slicknav.css" rel="stylesheet">
+            <link href="../css/style1.css" rel="stylesheet">
+
+            <script src="../js/modernizr.js"></script>
+
+            <link href="../css/font-awesome.min.css" rel="stylesheet">
+            <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <style>
+           .link
+           {
+               text-decoration: none;
+           }
+           .link:hover{
+               text-decoration: none;
+           }
+           .link:active
+           {
+               text-decoration: none;
+           }
+           .link:focus
+           {
+               text-decoration: none;
+           }
+            .back
+            {
+                background-image: url("../img/ride.jpg");
+                background-position-x:center;
+                background-position-y: center;
+                background-size: cover;
+                opacity: 0.9;
+                width:600px;
+                margin-left: -15px;
+                height: 220px;
+                margin-top: -37px;
+
+            }
+           #photo
+           {
+               position: absolute;
+               top: 160px;
+               left: 230px;
+           }
+           #myModal
+           {
+               overflow-y: hidden;
+           }
+            </style>
+        </head>
+        <body>
+
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top:-30px;align-items:center">
+                            <div class="modal-dialog">
+                                <div class="modal-content" style="background-color:whitesmoke">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                        <h4 class="modal-title" id="myModalLabel">Profile</h4>
+                                        </div>
+                                    <div class="modal-body">
+                                       <div class="back"></div>
+
+                                       <img src="../img/first.jpg" data-action="zoom" style="width: 150px;" width="140px" height="180px" id="photo" alt="" style="border-radius:2px;">
+                                       <h4 class="display-4" style="text-align:center;margin-top:40px;font-size:25px;font-weight:bold;margin-left:10px;">Vidit Gupta</h4><img style="position:absolute;left:380px;top:262px;" src="../img/male.png" height="30px" width="30px" alt="">
+                                       <div class="card">
+                                           <ul class="list-group list-group-flush" style="text-align:center;">
+                                            <h4 class="display-4" style="margin-top:0;font-size:16px;font-weight:bold;margin-left:-10px;">Email</h4><li class="list-group-item" style="margin-top:-12px;margin-left:-18px;">vidit135g@gmail.com</li>
+                                            <h4 class="display-4" style="margin-top:5px;font-size:16px;font-weight:bold;margin-left:-10px;">Contact Number</h4><li class="list-group-item" style="margin-top:-12px;margin-left:-18px;">948402444</li>
+                                            <h4 class="display-4" style="margin-top:5px;font-size:16px;font-weight:bold;margin-left:-10px;">Location</h4><li class="list-group-item" style="margin-top:-12px;margin-left:-18px;">Aliganj</li>
+                                        <a name="" id="" class="btn btn-danger" href="#" role="button" style="font-size:20px;margin-top:20px;width:100%;padding:10px;margin-left:-18px;">DISCUSS COST ESTIMATE</a>
+                                        </ul>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+            <div class="container-fluid" id="signhead">
+            </div>
+            <div class="sign-box">
+                <h4 id="pa1"><a href="default.html" style="text-decoration: none; color: white">SEAM</a></h4>
+            </div>
+
+                                <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:50px;">
+
+                                    <div class="search-content">
+
+                                        <form action="" novalidate autocomplete="off" class="idealforms searchtours">
+
+                                            <div class="row">
+
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                                    <div class="field">
+                                                        <select id="destination" name="destination">
+                                                            <option value="default">From</option>
+                                                            <option>Aliganj</option>
+                                                            <option>Vikas Nagar</option>
+                                                            <option>Keshav Nagar</option>
+                                                            <option>Nirala Nagar</option>
+                                                            <option>Gomti Nagar</option>
+                                                            <option>Hazratganj</option>
+                                                            <option>Kapurthala</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
+
+                                                    <div class="field">
+                                                        <select id="destination" name="destination" style="overflow:scroll">
+                                                            <option value="default">To</option>
+                                                            <option style="overflow:scroll" value="National Post Graduate College, 2, Rana Pratap Marg, Lucknow, Uttar Pradesh 226001">National P.G. College</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
+
+                                                    <div class="field">
+                                                        <input name="event" type="text" placeholder="Date" class="datepicker" data-container="body" id="dz">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
+
+                                                    <div class="field">
+                                                        <select id="destination" name="destination">
+                                                            <option value="default">Number of seats</option>
+                                                            <option>1</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
+
+                                                    <div class="field buttons">
+                                                        <button type="submit" class="btn btn-lg green-color">SHARE</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="main-content">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:-100px;" id="cent">
+
+                            <div class="page-sub-title textcenter" style="margin-left:-900px">
+                                <h2>All Riders</h2>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+
+                            <div class="page-content">
+
+                                <div class="rides-list">
+
+                                    <article class="ride-box clearfix">
+
+                                        <div class="ride-content">
+                                                <a href="#aboutModal" data-toggle="modal" data-target="#myModal" class="link"><h3>From Aliganj to National P.G. College</h3> ride needed by Stefan Valkov</a>
+                                        </div>
+
+                                        <ul class="ride-meta">
+
+                                            <li class="ride-date">
+                                                <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                    <i class="fa fa-calendar"></i>
+                                                    July 20, 2014 at 19:00 PM
+                                                </a>
+                                            </li>
+
+                                            <li class="ride-people">
+                                                <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                    <i class="fa fa-user"></i>
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-file"></i>
+                                                    Read more
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </article>
+
+                                    <article class="ride-box clearfix">
+
+                                        <div class="ride-content">
+                                                <a href="#aboutModal" data-toggle="modal" data-target="#myModal" class="link"><h3>From Aliganj to National P.G. College</h3> ride needed by Stefan Valkov</a>
+                                        </div>
+
+                                        <ul class="ride-meta">
+
+                                            <li class="ride-date">
+                                                <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                    <i class="fa fa-calendar"></i>
+                                                    July 18, 2014 at 06:00 AM
+                                                </a>
+                                            </li>
+                                            <li class="ride-people">
+                                                <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                    <i class="fa fa-user"></i>
+                                                    4
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-file"></i>
+                                                    Read more
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </article>
+                                    <article class="ride-box clearfix">
+
+                                        <div class="ride-content">
+                                                <a href="#aboutModal" data-toggle="modal" data-target="#myModal" class="link"><h3>From Aliganj to National P.G. College</h3> ride needed by Stefan Valkov</a>
+                                        </div>
+
+                                        <ul class="ride-meta">
+
+                                            <li class="ride-date">
+                                                <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                    <i class="fa fa-calendar"></i>
+                                                    July 15, 2014 at 20:00 PM
+                                                </a>
+                                            </li>
+                                            <li class="ride-people">
+                                                <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                    <i class="fa fa-user"></i>
+                                                    3
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-file"></i>
+                                                    Read more
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </article>
+
+                                    <article class="ride-box clearfix">
+
+                                        <div class="ride-content">
+                                                <a href="#aboutModal" data-toggle="modal" data-target="#myModal" class="link"><h3>From Aliganj to National P.G. College</h3> ride needed by Stefan Valkov</a>
+                                        </div>
+
+                                        <ul class="ride-meta">
+
+                                            <li class="ride-date">
+                                                <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                    <i class="fa fa-calendar"></i>
+                                                    July 10, 2014 at 09:00 AM
+                                                </a>
+                                            </li>
+                                            <li class="ride-people">
+                                                <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                    <i class="fa fa-user"></i>
+                                                    2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-file"></i>
+                                                    Read more
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </article>
+                                    <article class="ride-box clearfix">
+
+                                        <div class="ride-content">
+                                                <a href="#aboutModal" data-toggle="modal" data-target="#myModal" class="link"><h3>From Aliganj to National P.G. College</h3> ride needed by Stefan Valkov</a>
+                                        </div>
+
+                                        <ul class="ride-meta">
+
+                                            <li class="ride-date">
+                                                <a href="#" class="tooltip-link" data-original-title="Date" data-toggle="tooltip">
+                                                    <i class="fa fa-calendar"></i>
+                                                    July 08, 2014 at 22:00 PM
+                                                </a>
+                                            </li>
+                                            <li class="ride-people">
+                                                <a href="#" class="tooltip-link" data-original-title="Number of seats" data-toggle="tooltip">
+                                                    <i class="fa fa-user"></i>
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-file"></i>
+                                                    Read more
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </article>
+
+                                    <div class="clearfix"></div>
+
+                                    <script>
+                                    </script>
+
+            <!-- Javascript -->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+            <!-- Main jQuery -->
+            <script type="text/javascript" src="../js/jquery.main.js"></script>
+            <!-- Form -->
+            <script type="text/javascript" src="../js/jquery.idealforms.min.js"></script>
+            <script type="text/javascript" src="../js/jquery.idealselect.min.js"></script>
+            <script type="text/javascript" src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+            <!-- Menu -->
+            <script type="text/javascript" src="../js/hoverIntent.js"></script>
+            <script type="text/javascript" src="../js/superfish.js"></script>
+            <!-- Counter-Up  -->
+            <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+            <script type="text/javascript" src="../js/jquery.counterup.min.js"></script>
+            <!-- Rating  -->
+            <script type="text/javascript" src="../js/bootstrap-rating-input.min.js"></script>
+            <!-- Slicknav  -->
+            <script type="text/javascript" src="../js/jquery.slicknav.min.js"></script>
+        </body>
+    </html>

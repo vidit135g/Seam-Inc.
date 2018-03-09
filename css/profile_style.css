@@ -1,0 +1,52 @@
+﻿.link {
+    text-decoration: none;
+}
+
+    .link:hover {
+        text-decoration: none;
+    }
+
+    .link:active {
+        text-decoration: none;
+    }
+
+    .link:focus {
+        text-decoration: none;
+    }
+
+.back {
+    background-image: url("../img/bogol.gif");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    opacity: 0.9;
+    width: 600px;
+    margin-left: -15px;
+    height: 220px;
+    margin-top: -37px;
+}
+
+#photo {
+    position: absolute;
+    top: 160px;
+    left: 230px;
+}
+
+#myModal {
+    overflow-y: hidden;
+}
+
+#Button1 {
+    outline: none;
+}
+
+#submit {
+    outline: none;
+}
+body
+{
+    background-image:url('../img/ride.jpg');
+    background-position-x:center;
+    background-position-y:center;
+    background-size:cover;
+}
